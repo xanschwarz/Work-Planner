@@ -70,6 +70,7 @@ textarea {
   transition: all 0.3s ease-in-out;
 }
 
+/* Footer added for aesthetic reason, to create space below time-blocks. */
 footer {
   height: 100px;
 }
