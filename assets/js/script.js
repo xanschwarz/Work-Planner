@@ -13,7 +13,7 @@ descriptionEl.addClass('past');
 // or future.
 $(function colorCoding() {
     // Variables for current moment in hours and the timeblock rows.
-    var momentHours = parseInt(theMoment.format('H'))-8;
+    var momentHours = parseInt(theMoment.format('H'));
     var rowTimeCheck = $('.row');
     
     // Step through rowTimeCheck, for each rows assigned time (as identified by id) match against momentHours
